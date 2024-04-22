@@ -29,7 +29,7 @@ public class Movie
     public Int16 MovieYear { get; set; }
 
     [Display(Name = "Duração (em minutos)")]
-    [Required(ErrorMessage = "Por favor, informe a duração")]
+    [Required(ErrorMessage = "Por favor, informe a Duração")]
     public Int16 Duration { get; set; }
 
     [Display(Name = "Classificação Etária")]
@@ -42,9 +42,10 @@ public class Movie
 
     [NotMapped]
     [Display(Name = "Duração")]
-    public string HourDuration { get {
+    public string HourDuration { get { 
         return TimeSpan.FromMinutes(Duration).ToString(@"%h'h 'mm'min'");
     } }
 
     public ICollection<MovieGenre> Genres { get; set; }
+
 }

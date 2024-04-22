@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using GalloFlix.Models;
 using GalloFlix.Data;
 
+
 namespace GalloFlix.Controllers;
 
 public class HomeController : Controller
