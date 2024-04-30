@@ -1,2 +1,2 @@
-# GalloFlix2024a
+# GalloFlix
 Projeto de desenvolvimento de aplicação Web com .Net MVC C# para exibir informação sobre filmes
