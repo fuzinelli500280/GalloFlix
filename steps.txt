@@ -11,7 +11,7 @@ Abrir o NugetGallery (Shift + Ctrl + P):
         EntityFrameworkCore.Tools
         Pomelo.EntityFrameworkCore.MySql
 
-Criar as classes de dados - Pasta Models
+Criar as classes de dados -- Pasta Models
 
 Criar a pasta Data e a classe AppDbContext
 
