@@ -30,10 +30,9 @@ dotnet-aspnet-codegenerator controller -name GenresController -m Genre -dc AppDb
 
 dotnet-aspnet-codegenerator controller -name MoviesController -m Movie -dc AppDbContext -outDir Controllers -udl 
 
-Abrir o NugetGallery (Shift + CTRL + P):
+Abrir o NugetGallery (Shift + Ctrl + P):
     - Pesquisar e Instalar:
-    Microsoft.EntityFrameworkCore
-
+    AspNetCore.Identity.EntityFrameworkCore
 
 
 dotnet tool install --global dotnet-ef --version 8.0.4
